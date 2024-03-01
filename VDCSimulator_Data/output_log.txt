@@ -1,0 +1,149 @@
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX330 (ID=0x1d16)
+    Vendor:   NVIDIA
+    VRAM:     1982 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\UnityEngine.CloudBuild.dll (this message is harmless)
+Loading C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\UnityEngine.CloudBuild.dll into Unity Child Domain
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\UniFileBrowser.dll (this message is harmless)
+Loading C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\UniFileBrowser.dll into Unity Child Domain
+- Completed reload, in  0.071 seconds
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on ReturnToMainMenu
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 375)
+
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\Mono.Security.dll (this message is harmless)
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\Boo.Lang.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 4.234100 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 5388 -> priority: 1 
+  Thread -> id: 50b0 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.441000 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 419.
+Total: 1.240600 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.023500 ms MarkObjects: 0.477500 ms  DeleteObjects: 0.406400 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.651400 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1465.
+Total: 0.515700 ms (FindLiveObjects: 0.046300 ms CreateObjectMapping: 0.022900 ms MarkObjects: 0.224400 ms  DeleteObjects: 0.221800 ms)
+
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Users\robot\OneDrive\Documents\VDCCourse\VDCSimulator_Data\Managed\System.Xml.dll (this message is harmless)
+3/1/2024 11:10:03 AM|Fatal|WebSocket.acceptException|WebSocketSharp.WebSocketException: An exception has occurred while receiving a handshake. ---> System.IO.IOException: Read failure ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host.
+                           
+                             at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+                             --- End of inner exception stack trace ---
+                             at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+                             at System.IO.Stream.ReadByte () [0x00000] in <filename unknown>:0 
+                             at WebSocketSharp.WebSocketStream.readHandshakeHeaders (System.IO.Stream stream) [0x00000] in <filename unknown>:0 
+                             at WebSocketSharp.WebSocketStream.ReadHandshake[HandshakeResponse] (System.Func`2 parser, Int32 millisecondsTimeout) [0x00000] in <filename unknown>:0 
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.WebSocketStream.ReadHandshake[HandshakeResponse] (System.Func`2 parser, Int32 millisecondsTimeout) [0x00000] in <filename unknown>:0 
+                             at WebSocketSharp.WebSocketStream.ReadHandshakeResponse () [0x00000] in <filename unknown>:0 
+                             at WebSocketSharp.WebSocket.receiveHandshakeResponse () [0x00000] in <filename unknown>:0 
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest (WebSocketSharp.HandshakeRequest request) [0x00000] in <filename unknown>:0 
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest () [0x00000] in <filename unknown>:0 
+                             at WebSocketSharp.WebSocket.doHandshake () [0x00000] in <filename unknown>:0 
+                             at WebSocketSharp.WebSocket.connect () [0x00000] in <filename unknown>:0 
+3/1/2024 11:10:05 AM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+3/1/2024 11:10:07 AM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+3/1/2024 11:10:09 AM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+3/1/2024 11:10:11 AM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+3/1/2024 11:10:13 AM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+3/1/2024 11:10:15 AM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+3/1/2024 11:10:17 AM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+3/1/2024 11:10:19 AM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+3/1/2024 11:10:21 AM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+3/1/2024 11:10:23 AM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+3/1/2024 11:10:25 AM|Fatal|WebSocket.acceptException|System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+                           
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remote_end_point) [0x00000] in <filename unknown>:0 
+                             at System.Net.Sockets.TcpClient.Connect (System.Net.IPAddress[] ipAddresses, Int32 port) [0x00000] in <filename unknown>:0 
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
