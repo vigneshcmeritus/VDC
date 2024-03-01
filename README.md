@@ -17,4 +17,5 @@ Note: If any error arises regarding the versions of the dependencies, update the
 11.	Then run the testing program as well as, run the autonomous mode in the simulator simultaneously.
 Note: A popup window will appear after running the testing program (requesting permission for allowing public and private network to access python app) click on allow in that.
 12.	While the testing program is running based on the trained data, the car will autonomously move.
+
 ****** End of document ******
